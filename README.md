@@ -1,5 +1,6 @@
 # vsce-lite 🚀
 
+[![NPM Version](https://img.shields.io/npm/v/@antonpras/vsce-lite.svg)](https://www.npmjs.com/package/@antonpras/vsce-lite)
 [![Lisensi: MIT](https://img.shields.io/badge/Lisensi-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **vsce-lite** adalah sebuah alat baris perintah (CLI) yang ringan, cepat, dan tanpa dependensi *native* untuk mengemas ekstensi Visual Studio Code menjadi file `.vsix`. Dibuat khusus untuk lingkungan pengembangan di mana `vsce` standar mungkin gagal, seperti Termux di Android.
@@ -20,11 +21,10 @@ Alat ini 100% ditulis dalam JavaScript, memastikan kompatibilitas lintas platfor
 
 Karena `vsce-lite` adalah alat baris perintah berbasis Node.js, Anda memerlukan Node.js dan npm terinstal di sistem Anda.
 
+Instal secara global menggunakan npm:
 ```bash
-# (Segera setelah dipublikasikan ke npm)
-# npm install -g vsce-lite
+npm install -g @antonpras/vsce-lite
 ```
-*Catatan: Saat ini, instalasi harus dilakukan dari source code.*
 
 ## 🚀 Penggunaan
 
